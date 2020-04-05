@@ -1,0 +1,1879 @@
+﻿<？xml 版本 = “ 1.0 ”编码 = “ UTF-8 ”？>
+<？PowerDesigner AppLocale = “ UTF16 ” ID = “ {8BBCFAFE-2BEA-490D-8771-DC746DB71FE1} ”标签 = “ ” LastModificationDate = “ 1585240464 ”名称 = “ SQL04 ”对象 = “ 114 ”符号 = “ 20 ”类型 = “ {1E597170 -9350-11D1-AB3C-0020AF71E433} “署名 = ”= “ 16.5.0.3982 ”？>
+<！-不要编辑此文件->
+
+< 模型 xmlns ：a = “属性”  xmlns ：c = “集合”  xmlns ：o = “对象” >
+
+< o ：RootObject  ID = “ o1 ” >
+< c ：儿童 >
+< o ：模型 ID = “ o2 ” >
+< a ：对象ID > 8BBCFAFE-2BEA-490D-8771-DC746DB71FE1 </ a ：对象ID >
+< a ：名称 > SQL04 </ a ：名称 >
+< a ：代码 > SQL04 </ a ：代码 >
+< a ：CreationDate > 1584937449 </ a ：CreationDate >
+< a ：创建者 >管理员</ a ：创建者 >
+< a ：修改日期 > 1585240442 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：PackageOptionsText > [FolderOptions]
+
+[FolderOptions \ Conceptual数据对象]
+GenerationCheckModel =是
+GenerationPath =
+GenerationOptions =
+GenerationTasks =
+GenerationTargets =
+GenerationSelections = </ a ：PackageOptionsText >
+< a ：ModelOptionsText > [ModelOptions]
+
+[ModelOptions \ Conceptual选项]
+CaseSensitive =否
+DisplayName =是
+EnableTrans =否
+UseTerm =否
+EnableRequirements =否
+EnableFullShortcut =是
+InfoUnique =是
+AllowReuse =是
+InfoAllowReuse =是
+记数法= 2
+RlshUnique =是
+DefaultDttp =
+DomnCopyDttp =是
+DomnCopyChck =否
+DomnCopyRule =否
+DomnCopyExat =否
+DomnCopyMand =否
+DttpFullName =是
+RlshAsstTmpl =每个％Entity1.Name％[CRLF] .if％Entity1ToEntity2RoleMandatory％[CRLF] must [CRLF] .else [CRLF] may [CRLF] .endif [CRLF] .if％Entity1ToEntity2Role％[CRLF]％.L：Entity1ToEntity2Role ％[CRLF] .else [CRLF]具有[CRLF] .endif [CRLF] .if％Entity1ToEntity2RoleMaximumCardinality％== 1 [CRLF]。如果％Entity1ToEntity2RoleMandatory％[CRLF]处只有一个[CRLF] .else [CRLF]一个[CRLF] .endif [CRLF] .else [CRLF]一个或多个[CRLF] .endif [CRLF] .if％Entity1％==％Entity2％[CRLF]其他[CRLF] .endif [CRLF]％Entity2 .Name％。[CRLF]每个％Entity2.Name％[CRLF]。如果％Entity2ToEntity1RoleMandatory％[CRLF]必须[CRLF] .else [CRLF]可能[CRLF] .endif [CRLF]。如果％Entity2ToEntity1Role％[CRLF] ％.L：Entity2ToEntity1Role％[CRLF] .else [CRLF]具有[CRLF] .endif [CRLF]。如果％Entity2ToEntity1RoleMaximumCardinality％== 1 [CRLF]。如果％Entity2ToEntity1RoleMandatory％[CRLF]是一个，只有一个[CRLF]。 else [CRLF]最多一个[CRLF]。endif [CRLF] .else [CRLF]一个或多个[CRLF] .endif [CRLF] .if％Entity1％==％Entity2％[CRLF]其他[CRLF] .endif [CRLF]％Entity1.Name％。
+RlshAsstExt =
+
+[ModelOptions \概念选项\ NamingOptionsTemplates]
+
+[ModelOptions \ Conceptual选项\ ClssNamingOptions]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FILO]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FILO \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FILO \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FRMEOBJ]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FRMEOBJ \名称]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FRMEOBJ \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FRMELNK]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FRMELNK \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ FRMELNK \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ DefaultClass]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ DefaultClass \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ DefaultClass \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMPCKG]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMPCKG \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMPCKG \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMDOMN]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMDOMN \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMDOMN \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ INFO]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ INFO \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ INFO \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \ Conceptual选项\ ClssNamingOptions \ ENTT]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ ENTT \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ ENTT \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ IDTF]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ IDTF \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ IDTF \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ RLSH]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ RLSH \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ RLSH \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ ASSC]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ ASSC \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ ASSC \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMINHR]
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMINHR \ Name]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \概念选项\ ClssNamingOptions \ CDMINHR \ Code]
+模板=
+最大长度= 254
+案例= M
+ValidChar =
+InvldChar =
+AllValid =是
+NoAccent =否
+DefaultChar =
+脚本=
+转换表=
+ConvTablePath =％_ HOME％\资源文件\转换表
+
+[ModelOptions \ Generate]
+
+[ModelOptions \ Generate \ Pdm]
+CheckModel =是
+SaveLinks =是
+NameToCode =否
+BuildTrgr =否
+TablePrefix =
+IndxPKName =％TABLE％_PK
+IndxAKName =％TABLE％_AK
+IndxFKName =％REFR％_FK
+IndxThreshold =
+ClassPrefix =
+ColnFKName =％。3：PARENT％_％COLUMN％
+ColnFKNameUse =否
+
+[ModelOptions \ Generate \ Oom]
+CheckModel =是
+SaveLinks =是
+NameToCode =是
+
+[ModelOptions \ Generate \ Ldm]
+CheckModel =是
+SaveLinks =是
+NameToCode =否</ a ：ModelOptionsText >
+< c ：概念图 >
+< o ：ConceptualDiagram  ID = “ o3 ” >
+< a ：ObjectID > F322DC97-0476-4D54-8FD6-73E0DAC46CE5 </ a ：ObjectID >
+< a ：名称 > Diagram_1 </ a ：名称 >
+< a ：代码 > Diagram_1 </ a ：代码 >
+< a ：CreationDate > 1584937449 </ a ：CreationDate >
+< a ：创建者 >管理员</ a ：创建者 >
+< a ：ModificationDate > 1585240416 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：DisplayPreferences > [DisplayPreferences]
+
+[DisplayPreferences \ CDM]
+
+[DisplayPreferences \ General]
+调整为文字=是
+捕捉网格=否
+约束标签=是
+显示网格=否
+显示页面分隔符=是
+显示链接路口=是
+激活自动链接路由=是
+网格大小= 0
+图形单位= 2
+窗口颜色= 255、255、255
+背景图片=
+后台模式= 8
+水印图像=
+水印模式= 8
+在屏幕上显示水印=否
+渐变模式= 0
+渐变结束颜色= 255、255、255
+显示Swimlane =否
+SwimlaneVert =是
+TreeVert =否
+CompDark = 0
+
+[DisplayPreferences \ Object]
+显示图标=否
+模式= 2
+截线长度= 40
+字长= 40
+文字= ＆quot; ＃$％＆amp;＆＃39; ）* +，-。/：; = ＆gt; ？@ \] ^ _`|}〜
+快捷方式IntIcon =是
+快捷方式IntLoct =是
+快捷方式IntFullPath =否
+快捷方式IntLastPackage =是
+快捷方式ExtIcon =是
+快捷方式ExtLoct =否
+快捷方式ExtFullPath =否
+快捷方式ExtLastPackage =是
+快捷方式ExtIncludeModl =是
+EObjShowStrn =是
+ExtendedObject.Comment =否
+ExtendedObject.IconPicture =否
+ExtendedObject.TextStyle =否
+ExtendedObject_SymbolLayout =＆lt; Form＆gt; [CRLF]＆lt; StandardAttribute Name =“ Stereotype”。属性＝“定型”。前缀=“＆lt;＆lt;＆lt;” 后缀=“＆amp; gt;＆amp; gt;”。比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“对象名称”；Attribute ＝“ DisplayName”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt;分隔符名称=“分隔符”；/＆gt; [CRLF]＆lt; StandardAttribute Name =“评论”。属性＝“评论”。前缀=“” 后缀=＆“” 对准＝“左”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; 图标” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; 图标” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; 前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; 前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt;
+ELnkShowStrn =是
+ELnkShowName =是
+ExtendedLink_SymbolLayout = ＆lt; 表格＆gt; [CRLF] ＆lt; 表格名称= “ 中心＆QUOT;  ＆gt; [CRLF]   ＆lt; StandardAttribute Name = ＆quot; 铅板＆QUOT; 属性= “ 铅板＆QUOT; 前缀= “＆amp; lt; ＆amp; lt; ＆quot; 后缀= “＆amp; gt; ＆amp; gt; ＆quot; 标题= “” 必填= “ 无＆QUOT; / ＆gt; [CRLF]  ＆lt; StandardAttribute Name = ＆quot; 名称＆quot; 属性= “ DisplayName的＆QUOT; 前缀= “” 后缀= “” 标题= “” 必填= “ 无＆QUOT; / ＆gt; [CRLF] ＆lt; /表格＆gt; [CRLF] ＆lt; 表格名称= “ 来源＆quot;  ＆gt; [CRLF] ＆lt; /表格＆gt; [CRLF] ＆lt; 表格名称= “ 目的地＆QUOT;  ＆gt;[CRLF] ＆lt; /表格＆gt; [CRLF] ＆lt; /表格＆gt;
+FileObject.Stereotype =否
+FileObject.DisplayName =是
+FileObject.LocationOrName =否
+FileObject.IconPicture =否
+FileObject.TextStyle =否
+FileObject.IconMode =是
+FileObject_SymbolLayout =＆lt; Form＆gt; [CRLF]＆lt; StandardAttribute Name =“ Stereotype”；属性＝“定型”。前缀=“＆lt;＆lt;＆lt;” 后缀=“＆amp; gt;＆amp; gt;”。比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; ExclusiveChoice Name =“ Exclusive Choice” 强制=“是” 显示=“ Horizo​​ntalRadios” ＆gt; [CRLF]＆lt; StandardAttribute Name =“名称” Attribute ＝“ DisplayName”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“位置” Attribute =“ LocationOrName”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; / ExclusiveChoice＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; quot; 前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; / ExclusiveChoice＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; quot; 前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; / ExclusiveChoice＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; CNTR” 标题=“” 强制=“否” /＆gt; [CRLF]＆lt; / ExclusiveChoice＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; CNTR” 标题=“” 强制=“否” /＆gt; [CRLF]＆lt; / ExclusiveChoice＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; StandardAttribute Name ＝“ Icon”。属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; StandardAttribute Name ＝“ Icon”。属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt;
+Package.Stereotype =是
+Package.Comment =否
+Package.IconPicture =否
+Package.TextStyle =否
+Package_SymbolLayout =＆lt; Form＆gt; [CRLF]＆lt; StandardAttribute Name =“ Stereotype”。属性＝“定型”。前缀=“＆lt;＆lt;＆lt;” 后缀=“＆amp; gt;＆amp; gt;”。比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“名称” Attribute ＝“ DisplayName”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt;分隔符名称=“分隔符”；/＆gt; [CRLF]＆lt; StandardAttribute Name =“评论”。属性＝“评论”。前缀=“” 后缀=“” 对准＝“左”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; ＆quot; 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt; ＆quot; 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt;
+显示模型版本=是
+Entity.Stereotype =是
+Entity.Attributes =是
+Entity.Attributes._Filter = ＆quot; 所有属性＆QUOT; CDMPENTALL
+Entity.Attributes._Columns =定型标识符IdentifierIndicator DomainOrDataType NullIndicator
+Entity.Attributes._Limit = -5
+Entity.Identifiers =是
+Entity.Identifiers._Columns =定型IdentifierIndicator
+Entity.Comment =否
+Entity.IconPicture =否
+Entity.TextStyle =否
+Entity_SymbolLayout =＆lt; Form＆gt; [CRLF]＆lt; StandardAttribute Name =“ Stereotype”。属性＝“定型”。前缀=“＆lt;＆lt;＆lt;” 后缀=“＆amp; gt;＆amp; gt;”。比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“名称” Attribute ＝“ DisplayName”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt;分隔符名称=“分隔符”；/＆gt; [CRLF]＆lt; StandardCollection Name =“ Attributes” 集合＝“属性”。列=“ 构造型否\ r \ nDisplayName是\ r \ nIdentifierIndicator否＆quot;标识符指示器＆amp; quot; \ r \ nDataType否\ r \ nDomainOrDataType否＆amp; quot;域或数据类型＆quot; \ r \ nDomain否\ r \ nNullIndicator No Mandatory”；过滤器=“＆amp;所有属性＆amp;”。CDMPENTALL＆amp; quot;＆amp; quot; \ r \ n＆amp; quot;主要属性＆amp; quot; CDMPENTPK＆amp; quot; \＆amp; quot; PIDTF \＆amp; quot; TRUE \＆amp; quot; TRUE \＆amp;“＆amp;” \ r \ n＆amp;“识别属性＆amp;” CDMPENTIDTF＆amp; quot; \＆amp; quot; AIDF \＆amp; quot; TRUE \＆amp; quot; TRUE \＆amp; quot;＆amp; quot; HasLimit =“是”。HideEmpty =“否”；标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardCollection Name ＝“标识符”。集合＝“标识符”。列=“定型编号\ r \ nDisplayName是\ r \ nIdentifierIndicator No”和“ Identifier indicator＆amp;” HasLimit =“否”。HideEmpty =“否”；标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“评论”。属性＝“评论”。前缀=“” 后缀=“” 对准＝“左”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“＆” quot; 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Force top align”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt;
+Relationship.Entity1ToEntity2Role =是
+Relationship.Entity2ToEntity1RoleCardinality =否
+Relationship.Entity1ToEntity2RoleDominant =是
+Relationship.Stereotype =是
+Relationship.DisplayName =是
+Relationship.Entity2ToEntity1Role =是
+Relationship.Entity1ToEntity2RoleCardinality =否
+Relationship.Entity2ToEntity1RoleDominant =是
+Relationship_SymbolLayout =＆lt;表单＆gt; [CRLF]＆lt;表单名称=“源” ＆gt; [CRLF]＆lt; StandardAttribute Name =“角色” 属性＝“ Entity1ToEntity2Role”。前缀=“” 后缀=“” 标题＝“角色”。强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“基数” 属性＝“ Entity2ToEntity1RoleCardinality”。前缀=“” 后缀=“” 标题＝“基数”。强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Dominance” 属性＝“ Entity1ToEntity2RoleDominant”。前缀=“” 后缀=“” 标题＝“优势”。必填=＆“否”表示 /＆gt; [CRLF]＆lt; /表格＆gt; [CRLF]＆lt;表格名称=“中心” ＆gt; [CRLF]＆lt; StandardAttribute Name =“ Stereotype” 属性＝“定型”。前缀=“＆lt;＆lt;＆lt;” 后缀=“＆amp; gt;＆amp; gt;”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“名称” Attribute ＝“ DisplayName”；前缀=“” 后缀=“” 标题=“” 强制=“否” /＆gt; [CRLF]＆lt; /表格＆gt; [CRLF]＆lt;表格名称=“目的地”。＆gt; [CRLF]＆lt; StandardAttribute Name =“角色” 属性＝“ Entity2ToEntity1Role”。前缀=“ ＆quot; 后缀=“” 标题＝“角色”。强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“基数” 属性＝“ Entity1ToEntity2RoleCardinality”。前缀=“” 后缀=“” 标题＝“基数”。强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Dominance” 属性＝“ Entity2ToEntity1RoleDominant”。前缀=“” 后缀=“” 标题＝“优势”。强制=“否” /＆gt; [CRLF]＆lt; / Form＆gt; [CRLF]＆lt; / Form＆gt; StandardAttribute Name ＝“基数”。属性＝“ Entity1ToEntity2RoleCardinality”。前缀=“” 后缀=“” 标题＝“基数”。强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Dominance” 属性＝“ Entity2ToEntity1RoleDominant”。前缀=“” 后缀=“” 标题＝“优势”。强制=“否” /＆gt; [CRLF]＆lt; / Form＆gt; [CRLF]＆lt; / Form＆gt; StandardAttribute Name ＝“基数”。属性＝“ Entity1ToEntity2RoleCardinality”。前缀=“” 后缀=“” 标题＝“基数”。强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Dominance” 属性＝“ Entity2ToEntity1RoleDominant”。前缀=“” 后缀=“” 标题＝“优势”。强制=“否” /＆gt; [CRLF]＆lt; / Form＆gt; [CRLF]＆lt; / Form＆gt; 优势” 属性＝“ Entity2ToEntity1RoleDominant”。前缀=“” 后缀=“” 标题＝“优势”。强制=“否” /＆gt; [CRLF]＆lt; / Form＆gt; [CRLF]＆lt; / Form＆gt; 优势” 属性＝“ Entity2ToEntity1RoleDominant”。前缀=“” 后缀=“” 标题＝“优势”。强制=“否” /＆gt; [CRLF]＆lt; / Form＆gt; [CRLF]＆lt; / Form＆gt;
+Association.Stereotype =是
+Association.Comment =否
+Association.Attributes =是
+Association.Attributes._Columns =定型数据类型NullIndicator
+Association.Attributes._Limit = -5
+Association.IconPicture =否
+Association.TextStyle =否
+Association_SymbolLayout =＆lt; Form＆gt; [CRLF]＆lt; StandardAttribute Name =“ Stereotype”。属性＝“定型”。前缀=“＆lt;＆lt;＆lt;” 后缀=“＆amp; gt;＆amp; gt;”。比对=“ CNTR”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“名称” Attribute ＝“ DisplayName”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt;分隔符名称=“分隔符”；/＆gt; [CRLF]＆lt; StandardAttribute Name =“评论”。属性＝“评论”。前缀=“” 后缀=“＆” quot; 对准＝“左”。标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardCollection Name =“ Attributes” 集合＝“属性”。列=“定型类型编号\ r \ nDisplayName是\ r \ nDataType否\ r \ nDomainOrDataType否＆amp;“域或数据类型＆quot; \ r \ n域编号\ r \ nNullIndicator否强制性” HasLimit =“是”。HideEmpty =“否”；标题=“” 强制=“否” /＆gt; [CRLF]＆lt; StandardAttribute Name =“ Icon” 属性＝“ IconPicture”。前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; StandardAttribute Name ＝“强制顶部对齐”。Attribute =“ TextStyle”；前缀=“” 后缀=“” 比对=“ CNTR”。标题=“” 强制=“是” /＆gt; [CRLF]＆lt; / Form＆gt;
+AssociationLink.SymbolCardinality =是
+AssociationLink.Stereotype =是
+AssociationLink.Role =是
+AssociationLink_SymbolLayout = ＆lt; 表格＆gt; [CRLF] ＆lt; 表格名称= “ 来源＆quot;  ＆gt; [CRLF]   ＆lt; StandardAttribute Name = ＆quot; 基数＆QUOT; 属性= “ SymbolCardinality ＆QUOT; 前缀= “” 后缀= “” 标题= “ 基数＆QUOT; 必填= “ 无＆QUOT; / ＆gt; [CRLF] ＆lt; /表格＆gt;表格名称= “ 中心＆QUOT;  ＆gt; [CRLF]   ＆lt; StandardAttribute Name = ＆quot; 铅板＆QUOT; 属性= “ 铅板＆QUOT; 前缀= “＆amp; lt; ＆amp; lt; ＆quot; 后缀= “＆amp; gt; ＆amp; gt; ＆quot; 标题= “” 必填= “ 无＆QUOT; / ＆gt; [CRLF]   ＆lt; StandardAttribute Name = ＆quot; 角色＆QUOT; 属性=＆quot; 角色＆QUOT; 前缀= “” 后缀= “” 标题= “” 必填= “ 无＆QUOT; / ＆gt; [CRLF] ＆lt; /表格＆gt; [CRLF] ＆lt; 表格名称= “ 目的地＆QUOT;  ＆gt; [CRLF] ＆lt; /表格＆gt; [CRLF] ＆lt; /表格＆gt;
+Inheritance.Stereotype =是
+Inheritance.DisplayName =是
+Inheritance.IconPicture =否
+Inheritance.TextStyle =否
+Inheritance_SymbolLayout = ＆lt; 表格＆gt; [CRLF] ＆lt; StandardAttribute Name = ＆quot; 铅板＆QUOT; 属性= “ 铅板＆QUOT; 前缀= “＆amp; lt; ＆amp; lt; ＆quot; 后缀= “＆amp; gt; ＆amp; gt; ＆quot; 对齐方式= “ CNTR ＆QUOT; 标题= “” 必填= “ 无＆QUOT; / ＆gt; [CRLF] ＆lt;＆quot; 名称＆quot; 属性= “ DisplayName的＆QUOT; 前缀= “” 后缀= “” 对齐方式= “ CNTR ＆QUOT; 标题= “” 必填= “ 无＆QUOT; / ＆gt; [CRLF] ＆lt; 分隔符名称= “ 分离器＆QUOT; / ＆gt; [CRLF] ＆lt; StandardAttribute Name = ＆quot; 图标＆quot; 属性= “ IconPicture ＆QUOT; 前缀=“” 后缀= “” 对齐方式= “ CNTR ＆QUOT; 标题= “” 必填= “ 是的＆quot; / ＆gt; [CRLF] ＆lt; StandardAttribute Name = ＆quot; 力顶对齐＆QUOT; 属性= “ TextStyle ＆quot; 前缀= “” 后缀= “” 对齐方式= “ CNTR ＆QUOT; 标题= “” 必填= “ 是的＆quot; / ＆gt;[CRLF] ＆lt; /表格＆gt;
+
+[DisplayPreferences \ Symbol]
+
+[DisplayPreferences \ Symbol \ FRMEOBJ]
+STRNFont =新宋体，8，N
+STRNFont颜色= 0、0、0
+DISPNAMEFont =新宋体，8，N
+DISPNAME字体颜色= 0、0、0
+LABLFont =新宋体，8，N
+LABont颜色= 0、0、0
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+宽度= 6000
+高度= 2000
+笔刷颜色= 255 255 255
+填充颜​​色=是
+笔刷样式= 6
+笔刷位图模式= 12
+笔刷渐变模式= 64
+画笔渐变颜色= 192192192
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 0255128128
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ FRMELNK]
+CENTERFont =新宋体，8，N
+中心字体颜色= 0、0、0
+线条样式= 1
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+笔刷颜色= 255 255 255
+填充颜​​色=是
+笔刷样式= 1
+笔刷位图模式= 12
+笔刷渐变模式= 0
+画笔渐变颜色= 118118118
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 128128255
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ FILO]
+OBJSTRNFont =新宋体，8，N
+OBJSTRNFont颜色= 0、0、0
+DISPNAMEFont =新宋体，8，N
+DISPNAME字体颜色= 0、0、0
+LCNMFont =新宋体，8，N
+LCNMFont颜色= 0、0、0
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+宽度= 4800
+高度= 3600
+笔刷颜色= 255 255 255
+填充颜​​色=是
+笔刷样式= 1
+笔刷位图模式= 12
+笔刷渐变模式= 0
+画笔渐变颜色= 118118118
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 0 0 0 255
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ CDMPCKG]
+STRNFont =新宋体，8，N
+STRNFont颜色= 0、0、0
+DISPNAMEFont =新宋体，8，N
+DISPNAME字体颜色= 0、0、0
+LABLFont =新宋体，8，N
+LABont颜色= 0、0、0
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+宽度= 4800
+高度= 4000
+笔刷颜色= 255255192
+填充颜​​色=是
+笔刷样式= 6
+笔刷位图模式= 12
+笔刷渐变模式= 65
+画笔渐变颜色= 255 255 255
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 178 178 178
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ ENTT]
+STRNFont =新宋体，8，N
+STRNFont颜色= 0、0、0
+DISPNAMEFont =新宋体，8，N
+DISPNAME字体颜色= 0、0、0
+属性字体=新宋体，8，N
+属性字体颜色= 0、0、0
+EntityPrimaryAttributeFont =新宋体，8，U
+EntityPrimaryAttributeFont颜色= 0、0、0
+字体=新宋体，8，N
+字体颜色= 0、0、0
+LABLFont =新宋体，8，N
+LABont颜色= 0、0、0
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+宽度= 4800
+高度= 4000
+画笔颜色= 176255255
+填充颜​​色=是
+笔刷样式= 6
+笔刷位图模式= 12
+笔刷渐变模式= 65
+画笔渐变颜色= 255 255 255
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 0 0 170 170
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ RLSH]
+SOURCEFont =新宋体，8，N
+来源字体颜色= 0、0、0
+CENTERFont =新宋体，8，N
+中心字体颜色= 0、0、0
+DESTINATIONFont =新宋体，8，N
+目的地字体颜色= 0、0、0
+线条样式= 1
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+笔刷颜色= 255 255 255
+填充颜​​色=是
+笔刷样式= 1
+笔刷位图模式= 12
+笔刷渐变模式= 0
+画笔渐变颜色= 118118118
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 0 0 170 170
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ ASSC]
+STRNFont =新宋体，8，N
+STRNFont颜色= 0、0、0
+DISPNAMEFont =新宋体，8，N
+DISPNAME字体颜色= 0、0、0
+LABLFont =新宋体，8，N
+LABont颜色= 0、0、0
+属性字体=新宋体，8，N
+属性字体颜色= 0、0、0
+EntityPrimaryAttributeFont =新宋体，8，U
+EntityPrimaryAttributeFont颜色= 0、0、0
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+宽度= 4800
+高度= 3000
+画笔颜色= 208208255
+填充颜​​色=是
+笔刷样式= 6
+笔刷位图模式= 12
+笔刷渐变模式= 65
+画笔渐变颜色= 255 255 255
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 128128255
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ LINK]
+SOURCEFont =新宋体，8，N
+来源字体颜色= 0、0、0
+CENTERFont =新宋体，8，N
+中心字体颜色= 0、0、0
+线条样式= 1
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+笔刷颜色= 255 255 255
+填充颜​​色=是
+笔刷样式= 1
+笔刷位图模式= 12
+笔刷渐变模式= 0
+画笔渐变颜色= 118118118
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 128128255
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ CDMINHR]
+STRNFont =新宋体，8，N
+STRNFont颜色= 0、0、0
+DISPNAMEFont =新宋体，8，N
+DISPNAME字体颜色= 0、0、0
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=是
+宽度= 1600
+高度= 1000
+画笔颜色= 176255255
+填充颜​​色=是
+笔刷样式= 6
+笔刷位图模式= 12
+笔刷渐变模式= 65
+画笔渐变颜色= 255 255 255
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 128128255
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ LINH]
+CENTERFont =新宋体，8，N
+中心字体颜色= 0、0、0
+线条样式= 1
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+笔刷颜色= 255 255 255
+填充颜​​色=是
+笔刷样式= 1
+笔刷位图模式= 12
+笔刷渐变模式= 0
+画笔渐变颜色= 118118118
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 128128255
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ USRDEPD]
+OBJXSTRFont =新宋体，8，N
+OBJXSTRFont颜色= 0、0、0
+线条样式= 1
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+笔刷颜色= 255 255 255
+填充颜​​色=是
+笔刷样式= 1
+笔刷位图模式= 12
+笔刷渐变模式= 0
+画笔渐变颜色= 118118118
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 2 0128128255
+阴影颜色= 192192192
+阴影= 0
+
+[DisplayPreferences \ Symbol \ Free Symbol]
+免费TextFont =新宋体，8，N
+自由文本字体颜色= 0、0、0
+线型= 0
+AutoAdjustToText =是
+保持长宽比=否
+保持中心=否
+保持大小=否
+笔刷颜色= 255 255 255
+填充颜​​色=是
+笔刷样式= 1
+笔刷位图模式= 12
+笔刷渐变模式= 0
+画笔渐变颜色= 118118118
+画笔背景图片=
+自定义形状=
+自定义文字模式= 0
+笔= 1 0 0 0 255
+阴影颜色= 192192192
+Shadow = 0 </ a ：DisplayPreferences >
+< a ：PaperSize >（8268，11693）</ a ：PaperSize >
+< a ：PageMargins >（（（315,354），（433,354））</ a ：PageMargins >
+< a ：PageOrientation > 1 </ a ：PageOrientation >
+< a ：PaperSource > 15 </ a ：PaperSource >
+< c ：符号 >
+< o ：TextSymbol  ID = “ o4 ” >
+< a ：文本 >信息系统与数据库技术练习4
+
+班级：
+学号：
+姓名：</ a ：文字 >
+< a ：CreationDate > 1584937460 </ a ：CreationDate >
+< a ：ModificationDate > 1584937728 </ a ：ModificationDate >
+< a ：矩形 >（（-51414,16458），（-30790,25906））</ a ：矩形 >
+< a ：TextStyle > 4129 </ a ：TextStyle >
+< a ：AutoAdjustToText > 0 </ a ：AutoAdjustToText >
+< a ：LineColor > 0 </ a ：LineColor >
+< a ：DashStyle > 7 </ a ：DashStyle >
+< a ：FillColor > 0 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：FontName >新宋体，14，N​​ </ a ：FontName >
+< a ：手动调整大小 > 1 </ a ：手动调整大小 >
+</ o ：TextSymbol >
+< o ：TextSymbol  ID = “ o5 ” >
+< a ：文本 >（一）设计概念数据模型（Conceptual Data Model）
+1。</ a ：文本 >
+< a ：CreationDate > 1584937645 </ a ：CreationDate >
+< a ：修改日期 > 1585103031 </ a ：修改日期 >
+< a ：矩形 >（（-51561,11978），（-20967,20076））</ a ：矩形 >
+< a ：TextStyle > 4129 </ a ：TextStyle >
+< a ：AutoAdjustToText > 0 </ a ：AutoAdjustToText >
+< a ：LineColor > 0 </ a ：LineColor >
+< a ：DashStyle > 7 </ a ：DashStyle >
+< a ：FillColor > 0 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：FontName >新宋体，12，N </ a ：FontName >
+< a ：手动调整大小 > 1 </ a ：手动调整大小 >
+</ o ：TextSymbol >
+< o ：TextSymbol  ID = “ o6 ” >
+< a ：文字 > 2。</ a ：文字 >
+< a ：CreationDate > 1584937705 </ a ：CreationDate >
+< a ：修改日期 > 1585105055 </ a ：修改日期 >
+< a ：矩形 >（（-51822，-1150），（-21228,1774））</ a ：矩形 >
+< a ：TextStyle > 4129 </ a ：TextStyle >
+< a ：AutoAdjustToText > 0 </ a ：AutoAdjustToText >
+< a ：LineColor > 0 </ a ：LineColor >
+< a ：DashStyle > 7 </ a ：DashStyle >
+< a ：FillColor > 0 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：FontName >新宋体，12，N </ a ：FontName >
+< a ：手动调整大小 > 1 </ a ：手动调整大小 >
+</ o ：TextSymbol >
+< o ：RelationshipSymbol  ID = “ o7 ” >
+< a ：CreationDate > 1585215532 </ a ：CreationDate >
+< a ：修改日期 > 1585215737 </ a ：修改日期 >
+< a ：矩形 >（（5599,6486），（11661,8286））</ a ：矩形 >
+< a ：ListOfPoints >（（（11261,7386），（5999,7386））</ a ：ListOfPoints >
+< a ：CornerStyle > 1 </ a ：CornerStyle >
+< a ：ArrowStyle > 4631 </ a ：ArrowStyle >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：FontList > CENTER 0新宋体，8，N
+消息来源0新宋体，8，N
+DESTINATION 0新宋体，8，N </ a ：FontList >
+< c ：SourceSymbol >
+< ø ：EntitySymbol  价 = “ O8 ” />
+</ c ：SourceSymbol >
+< c ：DestinationSymbol >
+< ø ：EntitySymbol  价 = “ O9 ” />
+</ c ：DestinationSymbol >
+< c ：对象 >
+< o ：关系 Ref = “ o10 ” />
+</ c ：对象 >
+</ o ：RelationshipSymbol >
+< o ：RelationshipSymbol  ID = “ o11 ” >
+< a ：CreationDate > 1585215532 </ a ：CreationDate >
+< a ：修改日期 > 1585215737 </ a ：修改日期 >
+< a ：矩形 >（（-8387,7198），（-2067,8998））</ a ：矩形 >
+< a ：ListOfPoints >（（（-2467,8098），（-7987,8098））</ a ：ListOfPoints >
+< a ：CornerStyle > 1 </ a ：CornerStyle >
+< a ：ArrowStyle > 5906 </ a ：ArrowStyle >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：FontList > CENTER 0新宋体，8，N
+消息来源0新宋体，8，N
+DESTINATION 0新宋体，8，N </ a ：FontList >
+< c ：SourceSymbol >
+< ø ：EntitySymbol  价 = “ O9 ” />
+</ c ：SourceSymbol >
+< c ：DestinationSymbol >
+< o ：EntitySymbol  Ref = “ o12 ” />
+</ c ：DestinationSymbol >
+< c ：对象 >
+< o ：关系 Ref = “ o13 ” />
+</ c ：对象 >
+</ o ：RelationshipSymbol >
+< o ：RelationshipSymbol  Id = “ o14 ” >
+< a ：CreationDate > 1585240350 </ a ：CreationDate >
+< a ：修改日期 > 1585240350 </ a ：修改日期 >
+< a ：矩形 >（（（-13310，-2701），（-2551，-301））</ a ：矩形 >
+< a ：ListOfPoints >（（（-11910，-1501），（-2951，-1501））</ a ：ListOfPoints >
+< a ：CornerStyle > 1 </ a ：CornerStyle >
+< a ：ArrowStyle > 4881 </ a ：ArrowStyle >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：FontList > CENTER 0新宋体，8，N
+消息来源0新宋体，8，N
+DESTINATION 0新宋体，8，N </ a ：FontList >
+< c ：SourceSymbol >
+< o ：EntitySymbol  Ref = “ o15 ” />
+</ c ：SourceSymbol >
+< c ：DestinationSymbol >
+< o ：EntitySymbol  Ref = “ o16 ” />
+</ c ：DestinationSymbol >
+< c ：对象 >
+< o ：关系 Ref = “ o17 ” />
+</ c ：对象 >
+</ o ：RelationshipSymbol >
+< o ：RelationshipSymbol  ID = “ o18 ” >
+< a ：CreationDate > 1585240416 </ a ：CreationDate >
+< a ：修改日期 > 1585240464 </ a ：修改日期 >
+< a ：矩形 >（（-21262，-10774），（-11036，-6537））</ a ：矩形 >
+< a ：ListOfPoints >（（（-18450，-6937），（-18450，-9874），（-11436，-9874））</ a ：ListOfPoints >
+< a ：CornerStyle > 1 </ a ：CornerStyle >
+< a ：ArrowStyle > 4631 </ a ：ArrowStyle >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：FontList > CENTER 0新宋体，8，N
+消息来源0新宋体，8，N
+DESTINATION 0新宋体，8，N </ a ：FontList >
+< c ：SourceSymbol >
+< o ：EntitySymbol  Ref = “ o15 ” />
+</ c ：SourceSymbol >
+< c ：DestinationSymbol >
+< o ：EntitySymbol  Ref = “ o19 ” />
+</ c ：DestinationSymbol >
+< c ：对象 >
+< o ：关系 Ref = “ o20 ” />
+</ c ：对象 >
+</ o ：RelationshipSymbol >
+< o ：RelationshipSymbol  ID = “ o21 ” >
+< a ：CreationDate > 1585240416 </ a ：CreationDate >
+< a ：修改日期 > 1585240464 </ a ：修改日期 >
+< a ：矩形 >（（-3056，-10750），（7579，-8950））</ a ：矩形 >
+< a ：ListOfPoints >（（（-2656，-9850），（7179，-9850））</ a ：ListOfPoints >
+< a ：CornerStyle > 1 </ a ：CornerStyle >
+< a ：ArrowStyle > 5906 </ a ：ArrowStyle >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：FontList > CENTER 0新宋体，8，N
+消息来源0新宋体，8，N
+DESTINATION 0新宋体，8，N </ a ：FontList >
+< c ：SourceSymbol >
+< o ：EntitySymbol  Ref = “ o19 ” />
+</ c ：SourceSymbol >
+< c ：DestinationSymbol >
+< o ：EntitySymbol  Ref = “ o22 ” />
+</ c ：DestinationSymbol >
+< c ：对象 >
+< o ：关系 Ref = “ o23 ” />
+</ c ：对象 >
+</ o ：RelationshipSymbol >
+< o ：EntitySymbol  Id = “ o12 ” >
+< a ：CreationDate > 1585214672 </ a ：CreationDate >
+< a ：修改日期 > 1585215548 </ a ：修改日期 >
+< a ：IconMode > -1 </ a ：IconMode >
+< a ：矩形 >（（-22937,4874），（-7987,11322））</ a ：矩形 >
+< a ：AutoAdjustToText > 0 </ a ：AutoAdjustToText >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：FillColor > 16777136 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：字体列表> STRN 0新宋体，8，N
+DISPNAME 0新宋体，8，N
+属性0新宋体，8，N
+EntityPrimaryAttribute 0新宋体，8，U
+标识符0新宋体，8，N
+LABL 0新宋体，8，N </ a ：FontList >
+< a ：BrushStyle > 6 </ a ：BrushStyle >
+< a ：GradientFillMode > 65 </ a ：GradientFillMode >
+< a ：GradientEndColor > 16777215 </ a ：GradientEndColor >
+< a ：手动调整大小 > 1 </ a ：手动调整大小 >
+< c ：对象 >
+< o ：实体 Ref = “ o24 ” />
+</ c ：对象 >
+</ o ：EntitySymbol >
+< ø ：EntitySymbol  编号 = “ O8 ” >
+< a ：CreationDate > 1585215068 </ a ：CreationDate >
+< a ：修改日期 > 1585215560 </ a ：修改日期 >
+< a ：IconMode > -1 </ a ：IconMode >
+< a ：矩形 >（（（11261,4575），（25113,11323））</ a ：矩形 >
+< a ：AutoAdjustToText > 0 </ a ：AutoAdjustToText >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：FillColor > 16777136 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：字体列表> STRN 0新宋体，8，N
+DISPNAME 0新宋体，8，N
+属性0新宋体，8，N
+EntityPrimaryAttribute 0新宋体，8，U
+标识符0新宋体，8，N
+LABL 0新宋体，8，N </ a ：FontList >
+< a ：BrushStyle > 6 </ a ：BrushStyle >
+< a ：GradientFillMode > 65 </ a ：GradientFillMode >
+< a ：GradientEndColor > 16777215 </ a ：GradientEndColor >
+< a ：手动调整大小 > 1 </ a ：手动调整大小 >
+< c ：对象 >
+< o ：实体 Ref = “ o25 ” />
+</ c ：对象 >
+</ o ：EntitySymbol >
+< ø ：EntitySymbol  编号 = “ O9 ” >
+< a ：CreationDate > 1585215532 </ a ：CreationDate >
+< a ：修改日期 > 1585215737 </ a ：修改日期 >
+< a ：IconMode > -1 </ a ：IconMode >
+< a ：矩形 >（（（-2467,4724），（5999,10048））</ a ：矩形 >
+< a ：AutoAdjustToText > 0 </ a ：AutoAdjustToText >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：FillColor > 16777136 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：字体列表> STRN 0新宋体，8，N
+DISPNAME 0新宋体，8，N
+属性0新宋体，8，N
+EntityPrimaryAttribute 0新宋体，8，U
+标识符0新宋体，8，N
+LABL 0新宋体，8，N </ a ：FontList >
+< a ：BrushStyle > 6 </ a ：BrushStyle >
+< a ：GradientFillMode > 65 </ a ：GradientFillMode >
+< a ：GradientEndColor > 16777215 </ a ：GradientEndColor >
+< a ：手动调整大小 > 1 </ a ：手动调整大小 >
+< c ：对象 >
+< o ：实体 Ref = “ o26 ” />
+</ c ：对象 >
+</ o ：EntitySymbol >
+< o ：EntitySymbol  Id = “ o15 ” >
+< a ：CreationDate > 1585216845 </ a ：CreationDate >
+< a ：修改日期 > 1585240328 </ a ：修改日期 >
+< a ：IconMode > -1 </ a ：IconMode >
+< a ：矩形 >（（-24990，-6937），（-11910，-265））</ a ：矩形 >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：FillColor > 16777136 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：字体列表> STRN 0新宋体，8，N
+DISPNAME 0新宋体，8，N
+属性0新宋体，8，N
+EntityPrimaryAttribute 0新宋体，8，U
+标识符0新宋体，8，N
+LABL 0新宋体，8，N </ a ：FontList >
+< a ：BrushStyle > 6 </ a ：BrushStyle >
+< a ：GradientFillMode > 65 </ a ：GradientFillMode >
+< a ：GradientEndColor > 16777215 </ a ：GradientEndColor >
+< c ：对象 >
+< o ：实体 Ref = “ o27 ” />
+</ c ：对象 >
+</ o ：EntitySymbol >
+< o ：EntitySymbol  Id = “ o22 ” >
+< a ：CreationDate > 1585216847 </ a ：CreationDate >
+< a ：修改日期 > 1585240453 </ a ：修改日期 >
+< a ：IconMode > -1 </ a ：IconMode >
+< a ：矩形 >（（（7179，-13711），（15959，-5989））</ a ：矩形 >
+< a ：AutoAdjustToText > 0 </ a ：AutoAdjustToText >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：FillColor > 16777136 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：字体列表> STRN 0新宋体，8，N
+DISPNAME 0新宋体，8，N
+属性0新宋体，8，N
+EntityPrimaryAttribute 0新宋体，8，U
+标识符0新宋体，8，N
+LABL 0新宋体，8，N </ a ：FontList >
+< a ：BrushStyle > 6 </ a ：BrushStyle >
+< a ：GradientFillMode > 65 </ a ：GradientFillMode >
+< a ：GradientEndColor > 16777215 </ a ：GradientEndColor >
+< a ：手动调整大小 > 1 </ a ：手动调整大小 >
+< c ：对象 >
+< o ：实体 Ref = “ o28 ” />
+</ c ：对象 >
+</ o ：EntitySymbol >
+< o ：EntitySymbol  Id = “ o16 ” >
+< a ：CreationDate > 1585216848 </ a ：CreationDate >
+< a ：修改日期 > 1585240339 </ a ：修改日期 >
+< a ：IconMode > -1 </ a ：IconMode >
+< a ：矩形 >（（-2951，-4425），（10901,1423））</ a ：矩形 >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：FillColor > 16777136 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：字体列表> STRN 0新宋体，8，N
+DISPNAME 0新宋体，8，N
+属性0新宋体，8，N
+EntityPrimaryAttribute 0新宋体，8，U
+标识符0新宋体，8，N
+LABL 0新宋体，8，N </ a ：FontList >
+< a ：BrushStyle > 6 </ a ：BrushStyle >
+< a ：GradientFillMode > 65 </ a ：GradientFillMode >
+< a ：GradientEndColor > 16777215 </ a ：GradientEndColor >
+< c ：对象 >
+< o ：实体 Ref = “ o29 ” />
+</ c ：对象 >
+</ o ：EntitySymbol >
+< o ：EntitySymbol  Id = “ o19 ” >
+< a ：CreationDate > 1585240416 </ a ：CreationDate >
+< a ：修改日期 > 1585240464 </ a ：修改日期 >
+< a ：IconMode > -1 </ a ：IconMode >
+< a ：矩形 >（（-11436，-11874），（-2656，-7875））</ a ：矩形 >
+< a ：LineColor > 11184640 </ a ：LineColor >
+< a ：FillColor > 16777136 </ a ：FillColor >
+< a ：ShadowColor > 12632256 </ a ：ShadowColor >
+< a ：字体列表> STRN 0新宋体，8，N
+DISPNAME 0新宋体，8，N
+属性0新宋体，8，N
+EntityPrimaryAttribute 0新宋体，8，U
+标识符0新宋体，8，N
+LABL 0新宋体，8，N </ a ：FontList >
+< a ：BrushStyle > 6 </ a ：BrushStyle >
+< a ：GradientFillMode > 65 </ a ：GradientFillMode >
+< a ：GradientEndColor > 16777215 </ a ：GradientEndColor >
+< c ：对象 >
+< o ：实体 Ref = “ o30 ” />
+</ c ：对象 >
+</ o ：EntitySymbol >
+</ c ：符号 >
+</ o ：ConceptualDiagram >
+</ c ：ConceptualDiagrams >
+< c ：DefaultDiagram >
+< o ：ConceptualDiagram  Ref = “ o3 ” />
+</ c ：DefaultDiagram >
+< c ：实体 >
+< o ：实体 ID = “ o24 ” >
+< a ：ObjectID > 7C2E3274-0531-423A-84E3-31C6BDA0A52D </ a ：ObjectID >
+< a ：名称 >顾客</ a ：名称 >
+< a ：代码 >顾客</ a ：代码 >
+< a ：CreationDate > 1585214672 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215491 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 >
+< o ：标识符 ID = “ o31 ” >
+< a ：ObjectID > BBA7D692-A2F9-4268-AF7A-C5646DB3AAA8 </ a ：ObjectID >
+< a ：名称 > Identifier_1 </ a ：名称 >
+< a ：代码 > Identifier_1 </ a ：代码 >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 .Attributes>
+< o ：EntityAttribute  Ref = “ o32 ” />
+</ c ：标识符 .Attributes>
+</ o ：标识符 >
+</ c ：标识符 >
+< c ：PrimaryIdentifier >
+< o ：标识符 Ref = “ o31 ” />
+</ c ：PrimaryIdentifier >
+< c ：属性 >
+< o ：EntityAttribute  Id = “ o32 ” >
+< a ：ObjectID > 04BA7F17-2960-49CF-BDD1-AC6716F7F550 </ a ：ObjectID >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：BaseAttribute .Mandatory> 1 </ a ：BaseAttribute .Mandatory>
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o33 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o34 ” >
+< a ：对象ID > 2B18BFC0-04D5-4617-8ACE-C4CFA8CA27EF </ a ：对象ID >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o35 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o36 ” >
+< a ：ObjectID > 3FC9D79D-A97F-4E02-976B-42BC89FD5F6C </ a ：ObjectID >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o37 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o38 ” >
+< a ：ObjectID > 876EF286-2522-4D06-8148-DED3B1155822 </ a ：ObjectID >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o39 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+</ c ：属性 >
+</ o ：实体 >
+< o ：实体 ID = “ o25 ” >
+< a ：ObjectID > 7CB9A8E9-2747-4521-A721-22CB1EE1EFC9 </ a ：ObjectID >
+< a ：名称 >商品</ a ：名称 >
+< a ：代码 >商品</ a ：代码 >
+< a ：CreationDate > 1585215068 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215491 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 >
+< o ：标识符 ID = “ o40 ” >
+< a ：ObjectID > 89A72AF8-CE5E-4AE9-87C6-557C5BFBC194 </ a ：ObjectID >
+< a ：名称 > Identifier_1 </ a ：名称 >
+< a ：代码 > Identifier_1 </ a ：代码 >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 .Attributes>
+< o ：EntityAttribute  Ref = “ o41 ” />
+</ c ：标识符 .Attributes>
+</ o ：标识符 >
+</ c ：标识符 >
+< c ：PrimaryIdentifier >
+< o ：标识符 Ref = “ o40 ” />
+</ c ：PrimaryIdentifier >
+< c ：属性 >
+< o ：EntityAttribute  Id = “ o41 ” >
+< a ：ObjectID > AEB13035-4056-4808-BFD3-2E3ED31589CE </ a ：ObjectID >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：BaseAttribute .Mandatory> 1 </ a ：BaseAttribute .Mandatory>
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o42 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o43 ” >
+< a ：对象ID > 4219F088-C0B8-4187-BBDD-9DD9D0FAAAFE </ a ：对象ID >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o44 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o45 ” >
+< a ：对象ID > 4BE796F0-EFCE-472A-B6E6-B5BCB88B2A3F </ a ：对象ID >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o46 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o47 ” >
+< a ：ObjectID > CBC53025-FE7E-42F0-9046-EE18BBD7D500 </ a ：ObjectID >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o48 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+</ c ：属性 >
+</ o ：实体 >
+< o ：实体 ID = “ o26 ” >
+< a ：对象ID > A99EE097-7C66-4116-A10A-4A2634B1D14F </ a ：对象ID >
+< a ：名称 >购买</ a ：名称 >
+< a ：代码 >购买</ a ：代码 >
+< a ：CreationDate > 1585215532 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215731 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：属性 >
+< o ：EntityAttribute  Id = “ o49 ” >
+< a ：ObjectID > F4F751AB-4498-4A41-8225-D148E65CFEE8 </ a ：ObjectID >
+< a ：CreationDate > 1585215589 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215731 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o50 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o51 ” >
+< a ：ObjectID > D8E21D40-0949-4545-8736-4EA3A29C00B0 </ a ：ObjectID >
+< a ：CreationDate > 1585215589 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215731 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o52 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+</ c ：属性 >
+</ o ：实体 >
+< o ：实体 ID = “ o27 ” >
+< a ：ObjectID > F6DC0FA3-D861-4621-B226-7EB4BBFCB2D4 </ a ：ObjectID >
+< a ：名称 >职工</ a ：名称 >
+< a ：代码 >员工</ a ：代码 >
+< a ：CreationDate > 1585216845 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585240408 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 >
+< o ：标识符 ID = “ o53 ” >
+< a ：对象ID > 6732F5D2-FDA5-42D1-AC5B-A8A1F359658C </ a ：对象ID >
+< a ：名称 > Identifier_1 </ a ：名称 >
+< a ：代码 > Identifier_1 </ a ：代码 >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 .Attributes>
+< o ：EntityAttribute  Ref = “ o54 ” />
+</ c ：标识符 .Attributes>
+</ o ：标识符 >
+</ c ：标识符 >
+< c ：PrimaryIdentifier >
+< o ：标识符 Ref = “ o53 ” />
+</ c ：PrimaryIdentifier >
+< c ：属性 >
+< o ：EntityAttribute  Id = “ o55 ” >
+< a ：ObjectID > 0EB04E21-6B68-4B53-A184-549EDD52CF69 </ a ：ObjectID >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o56 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o54 ” >
+< a ：ObjectID > 9F5985B5-AEDE-40E3-BEBC-0F0101578CF2 </ a ：ObjectID >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：BaseAttribute .Mandatory> 1 </ a ：BaseAttribute .Mandatory>
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o57 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o58 ” >
+< a ：ObjectID > 9E598A29-6675-40B5-9E53-454276865CA1 </ a ：ObjectID >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o59 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o60 ” >
+< a ：对象ID > AABF080E-A180-42F4-BD3D-7CFC6A9B287B </ a ：对象ID >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o61 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o62 ” >
+< a ：ObjectID > 0139C9BE-DE04-49A2-9487-45F0D3FEBAB4 </ a ：ObjectID >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o63 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+</ c ：属性 >
+</ o ：实体 >
+< o ：实体 ID = “ o28 ” >
+< a ：对象ID > 1EAEDD9A-D40A-4E83-A23D-0D952BBDD036 </ a ：对象ID >
+< a ：名称 >职称职务</ a ：名称 >
+< a ：代码 >职称职务</ a ：代码 >
+< a ：CreationDate > 1585216847 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585240408 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 >
+< o ：标识符 ID = “ o64 ” >
+< a ：ObjectID > EAE991D9-4030-4087-9F58-F74D3C252748 </ a ：ObjectID >
+< a ：名称 > Identifier_1 </ a ：名称 >
+< a ：代码 > Identifier_1 </ a ：代码 >
+< a ：CreationDate > 1585240303 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585240310 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 .Attributes>
+< o ：EntityAttribute  Ref = “ o65 ” />
+</ c ：标识符 .Attributes>
+</ o ：标识符 >
+</ c ：标识符 >
+< c ：PrimaryIdentifier >
+< o ：标识符 Ref = “ o64 ” />
+</ c ：PrimaryIdentifier >
+< c ：属性 >
+< o ：EntityAttribute  Id = “ o66 ” >
+< a ：ObjectID > 3BA82C39-CF6F-48BC-8681-C168A99C1DE6 </ a ：ObjectID >
+< a ：CreationDate > 1585240057 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240201 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o67 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o68 ” >
+< a ：对象ID > 879C9356-B838-45FE-A796-9EA861F3DCD1 </ a ：对象ID >
+< a ：CreationDate > 1585240057 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240201 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o69 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o70 ” >
+< a ：ObjectID > B72480C4-BD73-42D4-A111-7733FAB83547 </ a ：ObjectID >
+< a ：CreationDate > 1585240057 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240201 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o71 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o65 ” >
+< a ：ObjectID > F3820C1C-FF6C-41D8-AC0F-C6F83BD0D148 </ a ：ObjectID >
+< a ：CreationDate > 1585240057 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585240310 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：BaseAttribute .Mandatory> 1 </ a ：BaseAttribute .Mandatory>
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o72 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+</ c ：属性 >
+</ o ：实体 >
+< o ：实体 ID = “ o29 ” >
+< a ：ObjectID > C40FE383-9C98-45E1-AF6A-504ACA281ABA </ a ：ObjectID >
+< a ：名称 >部门</ a ：名称 >
+< a ：代码 >部门</ a ：代码 >
+< a ：CreationDate > 1585216848 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240375 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 >
+< o ：标识符 ID = “ o73 ” >
+< a ：ObjectID > 57B27408-280F-4D0E-83C4-FAA0B8294CE2 </ a ：ObjectID >
+< a ：名称 > Identifier_1 </ a ：名称 >
+< a ：代码 > Identifier_1 </ a ：代码 >
+< a ：CreationDate > 1585240317 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585240325 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：标识符 .Attributes>
+< o ：EntityAttribute  Ref = “ o74 ” />
+</ c ：标识符 .Attributes>
+</ o ：标识符 >
+</ c ：标识符 >
+< c ：PrimaryIdentifier >
+< o ：标识符 Ref = “ o73 ” />
+</ c ：PrimaryIdentifier >
+< c ：属性 >
+< o ：EntityAttribute  Id = “ o74 ” >
+< a ：对象ID > 485E5021-CAD7-4105-8CB7-812EF17A156F </ a ：对象ID >
+< a ：CreationDate > 1585239321 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585240325 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：BaseAttribute .Mandatory> 1 </ a ：BaseAttribute .Mandatory>
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o75 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o76 ” >
+< a ：对象ID > 89470164-5C20-4F30-8BF7-EF65CCE919F9 </ a ：对象ID >
+< a ：CreationDate > 1585239321 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240048 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o77 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o78 ” >
+< a ：对象ID > 80421CC1-406D-4B9F-B6B2-3857262ECEAE </ a ：对象ID >
+< a ：CreationDate > 1585239321 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240048 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o79 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+< o ：EntityAttribute  Id = “ o80 ” >
+< a ：对象ID > 45DF7370-BC0F-410C-A38A-A92563E87994 </ a ：对象ID >
+< a ：CreationDate > 1585239321 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240048 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o81 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+</ c ：属性 >
+</ o ：实体 >
+< o ：实体 ID = “ o30 ” >
+< a ：ObjectID > 01806601-73C7-43ED-B424-5FE872032E74 </ a ：ObjectID >
+< a ：名称 >任职</ a ：名称 >
+< a ：代码 >任职</ a ：代码 >
+< a ：CreationDate > 1585240416 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240442 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< c ：属性 >
+< o ：EntityAttribute  Id = “ o82 ” >
+< a ：ObjectID > 16C23AA5-BBE5-4F8D-BE4F-17831F61EDF0 </ a ：ObjectID >
+< a ：CreationDate > 1585240424 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240442 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< Ç ：DataItem的 >
+< o ：DataItem  Ref = “ o83 ” />
+</ c ：DataItem >
+</ o ：EntityAttribute >
+</ c ：属性 >
+</ o ：实体 >
+</ c ：实体 >
+< c ：关系 >
+< o ：关系 ID = “ o10 ” >
+< a ：ObjectID > 4A5F1614-E7F9-4044-9E88-33DC6D22143F </ a ：ObjectID >
+< a ：名称 > Relationship_2 </ a ：名称 >
+< a ：代码 > Relationship_2 </ a ：代码 >
+< a ：CreationDate > 1585215532 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585215532 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：DependentRole > B </ a ：DependentRole >
+< a ：Entity1ToEntity2RoleCardinality > 0，n </ a ：Entity1ToEntity2RoleCardinality >
+< a ：Entity2ToEntity1RoleCardinality > 1,1 </ a ：Entity2ToEntity1RoleCardinality >
+< c ：对象1 >
+< o ：实体 Ref = “ o26 ” />
+</ c ：对象1 >
+< Ç ：Object2的 >
+< o ：实体 Ref = “ o25 ” />
+</ c ：Object2 >
+</ o ：关系 >
+< o ：关系 ID = “ o13 ” >
+< a ：对象ID > C60567BD-7668-4A1E-A33F-FFADDB203C84 </ a ：对象ID >
+< a ：名称 > Relationship_3 </ a ：名称 >
+< a ：代码 > Relationship_3 </ a ：代码 >
+< a ：CreationDate > 1585215532 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585215532 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：DependentRole > A </ a ：DependentRole >
+< a ：Entity1ToEntity2RoleCardinality > 1,1 </ a ：Entity1ToEntity2RoleCardinality >
+< a ：Entity2ToEntity1RoleCardinality > 0，n </ a ：Entity2ToEntity1RoleCardinality >
+< c ：对象1 >
+< o ：实体 Ref = “ o24 ” />
+</ c ：对象1 >
+< Ç ：Object2的 >
+< o ：实体 Ref = “ o26 ” />
+</ c ：Object2 >
+</ o ：关系 >
+< o ：关系 ID = “ o17 ” >
+< a ：ObjectID > 0B27ECA3-642F-412E-89AD-43F3D0414ED3 </ a ：ObjectID >
+< a ：名称 >分工</ a ：名称 >
+< a ：代码 > Relationship_4 </ a ：代码 >
+< a ：CreationDate > 1585240350 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240387 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：Entity1ToEntity2RoleCardinality > 0,1 </ a ：Entity1ToEntity2RoleCardinality >
+< a ：Entity2ToEntity1RoleCardinality > 0，n </ a ：Entity2ToEntity1RoleCardinality >
+< c ：对象1 >
+< o ：实体 Ref = “ o29 ” />
+</ c ：对象1 >
+< Ç ：Object2的 >
+< o ：实体 Ref = “ o27 ” />
+</ c ：Object2 >
+</ o ：关系 >
+< o ：关系 ID = “ o20 ” >
+< a ：对象ID > BF82FA64-AAE5-4F5D-B382-6E1939803C76 </ a ：对象ID >
+< a ：名称 > Relationship_6 </ a ：名称 >
+< a ：代码 > Relationship_6 </ a ：代码 >
+< a ：CreationDate > 1585240416 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585240416 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：DependentRole > B </ a ：DependentRole >
+< a ：Entity1ToEntity2RoleCardinality > 0，n </ a ：Entity1ToEntity2RoleCardinality >
+< a ：Entity2ToEntity1RoleCardinality > 1,1 </ a ：Entity2ToEntity1RoleCardinality >
+< c ：对象1 >
+< o ：实体 Ref = “ o30 ” />
+</ c ：对象1 >
+< Ç ：Object2的 >
+< o ：实体 Ref = “ o27 ” />
+</ c ：Object2 >
+</ o ：关系 >
+< o ：关系 ID = “ o23 ” >
+< a ：ObjectID > 11177666-4254-4F13-AF28-A893704B7A82 </ a ：ObjectID >
+< a ：名称 > Relationship_7 </ a ：名称 >
+< a ：代码 > Relationship_7 </ a ：代码 >
+< a ：CreationDate > 1585240416 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585240416 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：DependentRole > A </ a ：DependentRole >
+< a ：Entity1ToEntity2RoleCardinality > 1,1 </ a ：Entity1ToEntity2RoleCardinality >
+< a ：Entity2ToEntity1RoleCardinality > 0，n </ a ：Entity2ToEntity1RoleCardinality >
+< c ：对象1 >
+< o ：实体 Ref = “ o28 ” />
+</ c ：对象1 >
+< Ç ：Object2的 >
+< o ：实体 Ref = “ o30 ” />
+</ c ：Object2 >
+</ o ：关系 >
+</ c ：关系 >
+< Ç ：DataItems >
+< o ：DataItem  ID = “ o33 ” >
+< a ：对象ID > 110F6C34-CFD9-482B-B24D-FBB52A015EAC </ a ：对象ID >
+< a ：名称 >顾客号</ a ：名称 >
+< a ：代码 >顾客号</ a ：代码 >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：数据类型 > A10 </ a ：数据类型 >
+< a ：长度 > 10 </ a ：长度 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o35 ” >
+< a ：ObjectID > 3E34CFBE-FC91-452A-A484-CF03626EAC10 </ a ：ObjectID >
+< a ：名称 >顾客姓名</ a ：名称 >
+< a ：代码 >顾客姓名</ a ：代码 >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o37 ” >
+< a ：ObjectID > DD4F50A5-4B96-4EC7-B94C-51D7594F6812 </ a ：ObjectID >
+< a ：名称 >联系电话</ a ：名称 >
+< a ：代码 >联系电话</ a ：代码 >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o39 ” >
+< a ：对象ID > A5A30FC3-6EBD-4175-9E09-0AA5CCD4B0CA </ a ：对象ID >
+< a ：名称 >家庭住址</ a ：名称 >
+< a ：代码 >家庭住址</ a ：代码 >
+< a ：CreationDate > 1585214688 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585214988 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o42 ” >
+< a ：对象ID > 607ACED7-B0C0-498F-8505-68AACCAE6AB4 </ a ：对象ID >
+< a ：名称 >商品号</ a ：名称 >
+< a ：代码 >商品号</ a ：代码 >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：数据类型 > A10 </ a ：数据类型 >
+< a ：长度 > 10 </ a ：长度 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o44 ” >
+< a ：对象ID > B001F772-1BA8-44FA-9F77-4BB5970830FF </ a ：对象ID >
+< a ：名称 >商品名</ a ：名称 >
+< a ：代码 >商品名</ a ：代码 >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o46 ” >
+< a ：ObjectID > 4C8CB0DF-99CA-4EFC-BD30-6AB89A619C40 </ a ：ObjectID >
+< a ：名称 >商品规格</ a ：名称 >
+< a ：代码 >商品规格</ a ：代码 >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o48 ” >
+< a ：ObjectID > F0D66C3B-623A-4CF3-9F36-C39ABA30A9F4 </ a ：ObjectID >
+< a ：名称 >商品单价</ a ：名称 >
+< a ：代码 >商品单价</ a ：代码 >
+< a ：CreationDate > 1585215071 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215229 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o50 ” >
+< a ：ObjectID > AD2BA6CB-F3C0-4DE9-867F-5B5F8D8D7581 </ a ：ObjectID >
+< a ：名称 >购买日期</ a ：名称 >
+< a ：代码 >购买日期</ a ：代码 >
+< a ：CreationDate > 1585215589 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215731 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：数据类型 > D </ a ：数据类型 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o52 ” >
+< a ：对象ID > F0806ED6-124E-4750-8A2D-59BD61D05BA6 </ a ：对象ID >
+< a ：名称 >购买时间</ a ：名称 >
+< a ：代码 >购买时间</ a ：代码 >
+< a ：CreationDate > 1585215589 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585215731 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：数据类型 > I </ a ：数据类型 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o56 ” >
+< a ：ObjectID > DD076E71-9508-4C1F-98CD-656188B2987F </ a ：ObjectID >
+< a ：名称 >姓名</ a ：名称 >
+< a ：代码 >姓名</ a ：代码 >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o57 ” >
+< a ：ObjectID > B25168A4-ADE7-49BD-9DF8-8B8F2CB40999 </ a ：ObjectID >
+< a ：名称 >职工号</ a ：名称 >
+< a ：代码 >职工号</ a ：代码 >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：数据类型 > A10 </ a ：数据类型 >
+< a ：长度 > 10 </ a ：长度 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o59 ” >
+< a ：对象ID > 3F2922B5-0F26-4CD5-B5C0-B6B6760EBA4D </ a ：对象ID >
+< a ：名称 >性别</ a ：名称 >
+< a ：代码 >性别</ a ：代码 >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o61 ” >
+< a ：ObjectID > 0CCE0EAF-9952-467F-A51E-B876C32EE682 </ a ：ObjectID >
+< a ：名称 >年龄</ a ：名称 >
+< a ：代码 >年龄</ a ：代码 >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o63 ” >
+< a ：ObjectID > 597F7C79-9A6C-451C-9C03-21DAE362A34E </ a ：ObjectID >
+< a ：名称 >工资</ a ：名称 >
+< a ：代码 >工资</ a ：代码 >
+< a ：CreationDate > 1585238923 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：ModificationDate > 1585239308 </ a ：ModificationDate >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o75 ” >
+< a ：对象ID > 906892D9-9EDB-4CB6-92EE-A81D7F19289C </ a ：对象ID >
+< a ：名称 >部门号</ a ：名称 >
+< a ：代码 >部门号</ a ：代码 >
+< a ：CreationDate > 1585239321 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240048 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：数据类型 > A10 </ a ：数据类型 >
+< a ：长度 > 10 </ a ：长度 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o77 ” >
+< a ：ObjectID > 9A7C58BB-1D91-4D6D-890A-972B88FFB078 </ a ：ObjectID >
+< a ：名称 >部门名称</ a ：名称 >
+< a ：代码 >部门名称</ a ：代码 >
+< a ：CreationDate > 1585239321 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240048 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o79 ” >
+< a ：ObjectID > BB34895E-7253-440D-8147-0D9550F370A7 </ a ：ObjectID >
+< a ：名称 >电话</ a ：名称 >
+< a ：代码 >电话</ a ：代码 >
+< a ：CreationDate > 1585239321 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240048 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o81 ” >
+< a ：ObjectID > FA39E8BB-A11E-4276-B9CB-763EEA330209 </ a ：ObjectID >
+< a ：名称 >负责人</ a ：名称 >
+< a ：代码 >负责人</ a ：代码 >
+< a ：CreationDate > 1585239321 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240048 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o67 ” >
+< a ：对象ID > 258EEBB0-096A-4421-8928-CA203AF95443 </ a ：对象ID >
+< a ：名称 >面积</ a ：名称 >
+< a ：代码 >面积</ a ：代码 >
+< a ：CreationDate > 1585240057 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240201 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o69 ” >
+< a ：ObjectID > 64813289-29F5-462B-970D-61392D8118C9 </ a ：ObjectID >
+< a ：名称 >津贴</ a ：名称 >
+< a ：代码 >津贴</ a ：代码 >
+< a ：CreationDate > 1585240057 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240201 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o71 ” >
+< a ：ObjectID > D652A38B-C73E-4221-8140-F8E14E3BB238 </ a ：ObjectID >
+< a ：名称 >名称</ a ：名称 >
+< a ：代码 >名称</ a ：代码 >
+< a ：CreationDate > 1585240057 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240201 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o72 ” >
+< a ：ObjectID > 4BA13FBA-9CE7-4653-8A91-A5C903E2A734 </ a ：ObjectID >
+< a ：名称 >代号</ a ：名称 >
+< a ：代码 >代号</ a ：代码 >
+< a ：CreationDate > 1585240057 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240201 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+< a ：数据类型 > A10 </ a ：数据类型 >
+< a ：长度 > 10 </ a ：长度 >
+</ o ：DataItem >
+< o ：DataItem  ID = “ o83 ” >
+< a ：ObjectID > 4FB9810B-3AA2-48DC-B438-F4D3F21AB41D </ a ：ObjectID >
+< a ：名称 >任职日期</ a ：名称 >
+< a ：代码 >任职日期</ a ：代码 >
+< a ：CreationDate > 1585240424 </ a ：CreationDate >
+< a ：创建者 > 73982 </ a ：创建者 >
+< a ：修改日期 > 1585240442 </ a ：修改日期 >
+< a ：修饰符 > 73982 </ a ：修饰符 >
+</ o ：DataItem >
+</ c ：DataItems >
+</ o ：模型 >
+</ c ：儿童 >
+</ o ：RootObject >
+
+</ 型号 >
